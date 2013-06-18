@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<opencv_storage>
+	<settings>
+		<_>
+			<!--media>"test.01.wmv"</media-->
+			<media>0</media>
+			<width>320</width>
+			<height>240</height>
+		</_>
+	</settings>
+	
+	<gesture>
+		<_>
+			<database>database.test.xml</database>
+			<diffThreshold>20</diffThreshold>
+		</_>
+	</gesture>
+	
+	<motion>
+		<_>
+			<pointTracker>"Farneback"</pointTracker>
+			<diffThreshold>30</diffThreshold>
+			<bufferSize>4</bufferSize>
+			<mhiDuration>0.5</mhiDuration>
+			<maxTimeDelta>0.25</maxTimeDelta>
+			<minTimeDelta>0.05</minTimeDelta>
+		</_>
+	</motion>
+	
+	<haarDetectors>
+		<_><name>"FACE"</name></_>
+	</haarDetectors>
+		
+	<featureExtractors>
+		<_>
+			<name>"FAST"</name>
+			<type>"local"</type>
+		</_>
+		<!--_>
+			<name>"MSER"</name>
+			<type>"local"</type>
+		</_>
+		<_>
+			<name>"SIFT"</name>
+			<type>"local"</type>
+		</_>
+		<_>
+			<name>"ORB"</name>
+			<type>"local"</type>
+		</_>
+		<_>
+			<name>"MSER"</name>
+			<type>"local"</type>
+		</_>
+		<_>
+			<name>"SURF"</name>
+			<type>"local"</type>
+		</_>
+		
+		<_>
+			<name>"STAR"</name>
+			<type>"local"</type>
+		</_>
+		
+		<_>
+			<name>"FAST"</name>
+			<type>"local"</type>
+		</_>
+		<_>
+			<name>"LBP"</name>
+			<type>"global"</type>
+		</_-->
+	</featureExtractors>
+</opencv_storage>
